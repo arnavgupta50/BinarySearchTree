@@ -19,7 +19,7 @@ def insert(root, key):
 
 
 def preorder(root):
-     if root:                           #You can change the sequence accordingly for inorder and postorder
+     if root:                           
          print(root.val)
          preorder(root.left)
          preorder(root.right)
